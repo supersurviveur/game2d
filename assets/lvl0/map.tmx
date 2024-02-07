@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="100" height="30" tilewidth="16" tileheight="16" infinite="0" nextlayerid="19" nextobjectid="3">
+ <tileset firstgid="1" source="background.tsx"/>
+ <tileset firstgid="10" source="blocks.tsx"/>
+ <layer id="1" name="background" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1ksKgDAQBNGMf+9/YfsKCiEVqcXAW0h21VittSW35koP95bbc4dG+MxduVsjTOlUu1dEUzrV7hXRlE61e0X0l6bq5ffavZrVlE61/1dEj2jTnXSvZjGlU+1uEE3pVLtXRFM61e4V0T0brM7v/9GUTrV7RTSlU+1eEU3pVLtXRFM61e4V0Q8YEjpz
+  </data>
+ </layer>
+ <layer id="8" name="water" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt1bEJwDAMRFFN49WyQsY3KdwIt0FXvAeaQHyuCgAAAAAAAOBfTztmrXbM+n7wln+k0EeW84fTCLP0kcV+ZNFHFvuRRR9Z7EcWfdxt1asJvw==
+  </data>
+ </layer>
+ <layer id="2" name="floor" width="100" height="30">
+  <properties>
+   <property name="test" value="erfdgbvdf"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt1gEKwjAMQNFewYkXqNL7H9EJDkqX2sRliM1/EBx1a0aydksJAAAAAAAAAAAgjqWKx4/vBSmVNfL718s97fu7jdH7z0oV3vO2tr5n51wz2XrxqtGijN5zX49LNT+r9zMpysjVcdufLIxLNacfY6PaHwkpl9S76xq3Ki7Vf9F41V+aQ8qlvd77G+NfWGt8dH1Y543GYx30zmtJ147mi8bjPdGrqTWXZs+bneY5/Xbf6uWy9Dgaz/pr+mHds6LxqPsZ6yNyPyzvaMt4S5OnPWdGT6W9NyM=
+  </data>
+ </layer>
+ <layer id="7" name="floor2" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0cEJwCAQRUGbEfvv0LMSMRCJ/zBzXBaRfaUAAAAAAADAfe32Bxic6lEf3qvTjvZ7emR5e6PVnds00+MbPbLokUWPLHpk0SOLHln0yKJHFj3+0QFZ0Q2a
+  </data>
+ </layer>
+ <layer id="11" name="platform" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0dEJwCAQREGrSQkmHQT7b8jjmnCRGdj/hTcGAAAAAMA9Zu2tfaeP0P7aU1unj9D0yKJHFj2y6JFFjyx6AAAAcLsNueYFoA==
+  </data>
+ </layer>
+ <layer id="12" name="utils" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJzt0UENACAMBMGaxAIWsM+7AkgvZEbBJlsFAAAAAPCXNR1As6cDaPzI4kcWP7L4kcWPLGc6AAAAAB66nbADMQ==
+  </data>
+ </layer>
+ <layer id="10" name="decorations" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztzjcKAkEARmHvoUcw9+bG0nQBU6mCqbQxXdtXLRaGZWEdcN8HDwZmBv5cTpIkSZIkSUnkqRB6hCJFKoUeoUiDmm/uylShKtWo/qtReqlFbepQl3pB1/y3U4w3AxrSiMY0SXWRvpnSjOa0oGWMP+tUF2Xblna0pwMdw87JnP7TeUVnutCVbnQPMUofbUIPkCRJkiRJSugBHcYNtw==
+  </data>
+ </layer>
+ <layer id="9" name="ceil" width="100" height="30">
+  <data encoding="base64" compression="zlib">
+   eJztmEsOgzAMRHPL9gylFyiFu7cbJIQSf5LKTM08ySsgYM/EBqZSysRIHzPAM2SNl1Lv2vGRY0ctW+dJa3vW96zZs4bmzdo9rc9xdrRyy7wfM+WGmEuE90fy7ukrv65JT0+JrC+qN6zXI9TI6ieP73o9avUfYj9BDIT9eUWifHr7xuKMK2Kp5YhWmw5rVEJ/zoin77tzWz3sGZdKCiQ9tFo+lOuphx/J31ot30WfAexTPqR5QW/HQz2wYO/HQnqfpR7x1HTYZjv1iIf9CgvqgQX1wEL6R0U94mnNcupxDuxXWFAPLI49aj9HqEc83B9Y8PscC77vYvEB3MnONA==
+  </data>
+ </layer>
+ <objectgroup id="13" name="objects">
+  <object id="2" name="spawn" x="144" y="256">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
